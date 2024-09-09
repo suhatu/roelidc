@@ -34,32 +34,50 @@ nav.mainmenu>ul>li.current-menu-item>a {
     color: #ff8400 !important;
 }
 
-header nav>ul ul {
-    width: 170px;
+.contact aside {
+    float:none;
+    width:100%;
+    max-width:100%;
 }
 
-.content {
-    max-width:1200px;
+header nav>ul ul {
+    width: 170px;
 }
 
 .home h2+p {
     min-height:78px;
 }
 
+.home h2 > a {
+    font-size:0.8em;
+}
+
+
 .color-black header .top a {
     color:#fff;
 }
+
 nav.mainmenu>ul>li>a {
     font-weight:500;
 }
 
+nav.mainmenu>ul>li:first-child>a {
+    border-left:0;
+}
+
 .social ul li a.telegram {
     background:url("./images/contents/tele_logo.png")no-repeat center / cover scroll;
-    margin-left:-1px;
+    margin-left:-2px;
     opacity:1;
     border:1px solid #bbb;
 }
 
+.social ul li a.kakaotalk {
+    background:url("./images/contents/kakaotalk.png")no-repeat center / cover scroll;
+    margin-left:-2px;
+    opacity:1;
+    border:1px solid #bbb;
+}
 
 .slider article h3 {
     color:#fff;
@@ -103,6 +121,7 @@ p {
 
 section > div[class*="intro"] {
     margin-left:0;
+    display:block;
 }
 
 .pricing-plans {
@@ -125,6 +144,10 @@ section > div[class*="intro"] {
 
 blockquote.quote a.button {
     margin-left:-55px;
+}
+
+.contact {
+    overflow:hidden !important;
 }
 
 @media screen and (min-width:768px) {
